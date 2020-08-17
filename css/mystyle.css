@@ -1,0 +1,495 @@
+/* default styling starts here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+
+/* global style starts here */
+
+:root {
+    --white: white;
+    --black: black;
+    --dark: rgba(0, 0, 0, 0.8);
+    --lime: rgb(74, 250, 74);
+    --darklime: rgb(0, 238, 0);
+    --deepskyblue: deepskyblue;
+    --skyblue: skyblue;
+    --orange: darkorange;
+    --light: rgb(182, 181, 181);
+    --red: red;
+    --secondary: rgb(133, 133, 133);
+    --yellow: #FFDC00;
+    --grey: #F5F5F5;
+    --primary: #4977FA;
+}
+
+i {
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--lime);
+    font-family: sans-serif;
+}
+
+/* global style ends here */
+
+
+/* default styling ends here */
+
+/* width styling starts here */
+
+.container-fluid {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+    
+.w-75 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.w-50 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.w-25 {
+    width: 25%;
+    margin: 0 auto;
+}
+
+/* width styling ends here */
+
+/* navbar styling starts here */
+
+.nav-item {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* navbar styling ends here */
+
+/* text align styling starts here */
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* text align styling ends here */
+
+
+/* display starts here */
+
+.d-block {
+    display: block;
+}
+
+/* display ends here */
+
+/* button styling starts here */
+
+
+.btn {
+    background: #ddd;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(226, 226, 226);
+}
+
+.btn-orange {
+    background: #FA5636;
+    color: white;
+}
+
+.btn-orange:hover {
+    background: rgb(253, 61, 23);
+}
+
+.btn-white-outline {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+}
+
+.btn-primary-outline {
+    background: transparent;
+    border: 1px solid var(--primary);
+    colo: var(--primary);
+    border-radius: 2px;
+}
+
+.btn-primary-outline:hover {
+    background: var(--primary);
+    color: var(--white);
+}
+
+.btn-white-outline:hover {
+    background: white;
+    color: black;
+}
+
+.btn-primary {
+    background:#4977FA;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: rgb(56, 108, 251);
+}
+
+/* button styling starts here */
+
+/* text color styling starts here */
+
+.text-white {
+    color: var(--white);
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.text-skyblue {
+    color: var(--deepskyblue);
+}
+
+.text-light {
+    color: var(--light);
+}
+
+.text-secondary {
+    color: var(--secondary)
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+/* text color styling starts here */
+
+/* backgrond color starts here */
+
+.bg-grey {
+    background: var(--grey);
+}
+
+.bg-dark {
+    background: var(--dark);
+}
+
+.bg-primary {
+    background: var(--primary);
+}
+
+/* backgrond color ends here */
+
+/* margin styling starts here */
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.mb-3 {
+    margin-bottom: 30px;
+}
+
+.mb-4 {
+    margin-bottom: 40px;
+}
+
+.mb-5 {
+    margin-bottom: 50px;
+}
+
+
+.ml-1 {
+    margin-left: 10px;
+}
+
+.ml-2 {
+    margin-left: 20px;
+}
+
+.ml-3 {
+    margin-left: 30px;
+}
+
+.ml-4 {
+    margin-left: 40px;
+}
+
+.ml-5 {
+    margin-left: 50px;
+}
+
+
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+.mr-2 {
+    margin-right: 20px;
+}
+
+.mr-3 {
+    margin-right: 30px;
+}
+
+.mr-4 {
+    margin-right: 40px;
+}
+
+.mr-5 {
+    margin-right: 50px;
+}
+
+
+
+.mx-1 {
+    margin: 0 10px;
+}
+
+.mx-2 {
+    margin: 0 20px;
+}
+
+.mx-3 {
+    margin: 0 30px;
+}
+
+.mx-4 {
+    margin: 0 40px;
+}
+
+.mx-5 {
+    margin: 0 50px;
+}
+
+
+
+.my-1 {
+    margin: 10px 0;
+}
+
+.my-2 {
+    margin: 20px 0;
+}
+
+.my-3 {
+    margin: 30px 0;
+}
+
+.my-4 {
+    margin: 40px 0;
+}
+
+.my-5 {
+    margin: 50px 0;
+}
+
+
+
+.pt-1 {
+    padding-top: 10px;
+}
+
+.pt-2 {
+    padding-top: 20px;
+}
+
+.pt-3 {
+    padding-top: 30px;
+}
+
+.pt-4 {
+    padding-top: 40px;
+}
+
+.pt-5 {
+    padding-top: 50px;
+}
+
+
+.pb-1 {
+    padding-bottom: 10px;
+}
+
+.pb-2 {
+    padding-bottom: 20px;
+}
+
+.pb-3 {
+    padding-bottom: 30px;
+}
+
+.pb-4 {
+    padding-bottom: 40px;
+}
+
+.pb-5 {
+    padding-bottom: 50px;
+}
+
+
+
+.px-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.px-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.px-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.px-4 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.px-5 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+.py-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.py-2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.py-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.py-4 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.py-5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* margin styling starts here */
+
+/* flex box starts here */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-bottom {
+    align-items: bottom;
+}
+
+/* flex box ends here */
+
+
+/* images style starts here */
+
+.img-fluid {
+    width: 100%;
+}
+
+/* images style ends here */
