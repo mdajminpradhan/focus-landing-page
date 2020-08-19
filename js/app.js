@@ -5,7 +5,7 @@ $(document).ready(function () {
     loop: true,
     margin: 10,
     nav: false,
-    margin: 150,
+    margin: 50,
     responsive: {
       0: {
         items: 1,
@@ -14,6 +14,9 @@ $(document).ready(function () {
         items: 3,
       },
       1000: {
+        items: 3,
+      },
+      1300: {
         items: 4,
       },
     },
@@ -41,4 +44,11 @@ $(document).ready(function () {
   $( "#accordion" ).accordion();
 
 
+});
+
+
+// responsive mainmenu
+let headerTop = document.querySelector('.header-top');
+let myMenu = document.querySelector('.mymenu').addEventListener('click', (event)=> {
+  headerTop.classList.toggle('myMenuShow');
 });
